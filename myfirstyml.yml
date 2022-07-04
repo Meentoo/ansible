@@ -1,9 +1,6 @@
 ---
-- students: 
-  - name: anil
-    phone: 9898989898
-    add: Delhi
-
-  - name: sunil
-    phone: 9797979797
-    add: hyd
+- hosts: all
+- name: Installation of Webserver
+- apt:
+   - name: tree
+   - state: present
