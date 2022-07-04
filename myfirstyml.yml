@@ -1,7 +1,7 @@
 ---
 - hosts: all
-- name: Installation of Webserver
   tasks:
-  apt:
-   name: apache2
-   state: present
+   - name: Installation of Webserver
+     apt:
+      name: apache2
+      state: present
